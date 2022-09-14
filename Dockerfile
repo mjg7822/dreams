@@ -1,0 +1,3 @@
+FROM johnnypark/kafka-zookeeper
+ENV ADVERTISED_HOST=127.0.0.1
+ENV NUM_PARTITIONS=10
